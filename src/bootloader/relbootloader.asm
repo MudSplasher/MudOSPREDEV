@@ -2,7 +2,7 @@
  
          jmp short Start ;Jump over the data (the 'short' keyword makes the jmp instruction smaller)
  
- Msg:    db "hegoesnow fuck you"
+ Msg:    db "mud"
  EndMsg:
  
  Start:  mov bx, 000Fh   ;Page 0, colour attribute 15 (white) for the int 10 calls below
